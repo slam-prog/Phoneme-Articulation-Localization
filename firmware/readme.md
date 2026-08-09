@@ -1,10 +1,21 @@
 # 🛠️ Firmware Implementations: Multi-AI Core Translations
 
-🎙️ **Core C++ Signal Abstraction Layers for the Phoneme Articulation Localization Hardware Subsystem.**
+🎙️ **Core C++ Signal Abstraction Layers for the KineticVoice / Phoneme Articulation Localization Hardware Subsystem.**
 
-This directory holds the C++ firmware core abstraction layers responsible for executing the **Tanweer Phase-Tracking Algorithm** on the dual ARM Cortex-M0+ cores of the Raspberry Pi RP2040. 
+This directory holds the C++ firmware core abstraction layers responsible for executing the **Tanweer Phase-Tracking Algorithm** on the dual ARM Cortex-M0+ cores of the Raspberry Pi RP2040.
 
-To maintain strict open-source provenance and technical benchmarking under the MPL 2.0 license, the core time-domain triangulation loops have been compiled using three distinct engineering methodologies. Each script below targets high-efficiency bare-metal execution:
+## ⚖️ Open-Source Provenance & Ethical Licensing (HEUL v1.0)
+
+To maintain strict open-source transparency and technical benchmarking, the core time-domain triangulation loops have been compiled using three distinct engineering methodologies. 
+
+This entire architecture is governed exclusively under the **Humanitarian & Ethical Use License (HEUL) Version 1.0** located in the root repository. By accessing these firmware files, you agree that this platform remains a "tree of goodness" to enhance human communication capabilities (such as assistive tech for Aphasia patients and speech therapy) and is **STRICTLY PROHIBITED** from being leveraged in military, warfare, espionage, surveillance, or commercial exploitation applications that restrict technology access for disadvantaged communities.
+
+### 🧬 Academic & Hardware Attribution Credits:
+According to Section 5 of the HEUL parameters, all substantial code deployments must strictly retain the following credits:
+*   **Original Concept & Hardware Design**: Engineer Najib Mohammed Al-Amir
+*   **Computational Core & Algorithms**: Google AI (Gemini Baseline Engine)
+*   **Hardware Optimization & SDK Implementation**: DeepSeek AI Core
+*   **Ethical License Architectural Design**: DeepSeek AI, in collaboration with the project lead.
 
 ---
 
