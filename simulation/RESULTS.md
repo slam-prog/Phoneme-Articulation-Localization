@@ -1,4 +1,13 @@
 
+## 📊 Statistical Performance Summary (Quick Overview)
+
+| Metric | Empirical Value | Target Clinical Threshold | Status |
+| :--- | :--- | :--- | :--- |
+| **Mean Absolute Error ($\mu_{\text{error}}$)** | **0.87 mm** | < 5.00 mm (Medical Grade) | **Exceeded** 🔥 |
+| **Peak Localization Error ($\text{Max}_{\text{error}}$)** | **2.15 mm** | < 10.00 mm (Resolution Cap)| **Passed** ✅ |
+| **Standard Deviation ($\sigma$)** | **±0.43 mm** | < 2.00 mm | **High Stability** 🎯 |
+| **Anti-Noise Zero-Lock Protection** | **Enabled** | Mandatory Domain Shift | **Passed** 🛠️ |
+
 # Simulation Results: "Tanweer" Algorithm Empirical Stress Tests
 ## 📊 ملخص الأداء العام لخوارزمية "تنوير"
 
