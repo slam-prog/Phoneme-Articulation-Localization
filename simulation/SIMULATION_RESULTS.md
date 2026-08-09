@@ -1,4 +1,15 @@
+
 # Simulation Results: "Tanweer" Algorithm Empirical Stress Tests
+## 📊 ملخص الأداء العام لخوارزمية "تنوير"
+
+| المعيار | القيمة |
+|---------|--------|
+| متوسط هامش الخطأ | 0.89 ملم |
+| الانحراف المعياري | ±0.47 ملم |
+| أقصى خطأ مسجل | 2.15 ملم |
+| أدنى خطأ مسجل | 0.46 ملم |
+| عدد التشغيلات | 10 |
+| بيئة الضوضاء | SNR = 18 dB |
 
 This document presents the empirical validation metrics of the **Tanweer Phase-Tracking Algorithm** across 10 dynamic, stochastic real-time simulation runs executing human-formant speech bursts under noisy environments ($SNR = 18\text{ dB}$).
 
